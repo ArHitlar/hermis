@@ -13,6 +13,7 @@ is one service on port `8000`, not a separate port-5000 backend.
 This installs prerequisites, fetches Hermes Agent and WebUI, creates the
 Python 3.12 environment, installs dependencies and Chromium, creates
 `/workspaces/.env`, and starts the WebUI on port `8000`. It is safe to rerun.
+The upstream repositories are pinned to the revisions tested with this setup.
 
 Open forwarded port `8000` in Codespaces. Set `HERMES_WEBUI_PASSWORD` in
 `/workspaces/.env` before making the port public.
